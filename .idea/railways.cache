@@ -1,0 +1,11 @@
+    Prefix Verb   URI Pattern           Controller#Action
+forms_show GET    /forms/show(.:format) forms#show
+    inputs GET    /inputs(.:format)     inputs#index
+           POST   /inputs(.:format)     inputs#create
+           GET    /forms/:id(.:format)  forms#show
+     forms GET    /forms(.:format)      forms#index
+           POST   /forms(.:format)      forms#create
+      form GET    /forms/:id(.:format)  forms#show
+           PATCH  /forms/:id(.:format)  forms#update
+           PUT    /forms/:id(.:format)  forms#update
+           DELETE /forms/:id(.:format)  forms#destroy

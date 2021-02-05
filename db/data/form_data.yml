@@ -1,0 +1,19 @@
+- key: "form1"
+  name: "Mon formulaire"
+  tags:
+    - date: 2020-01-02
+      note: "blabla"
+      value: 1
+    - date: 2020-01-03
+      note: "blablaaa"
+      value: 2
+
+- key: "form2"
+  name: "Mon beau formulaire"
+  tags:
+    - date: 2020-01-08
+      note: "blablaaaaaa"
+      value: 7
+    - date: 2020-01-05
+      note: "blablaaaaaaaaa"
+      value: 90
